@@ -1,14 +1,7 @@
-# Activity 7 – ER Diagram and Eloquent ORM Modeling
+# Robotics School Platform (Activity 7 & Homework 6)
 
 ## 📌 Project Description
-This project was developed as part of **Activity 7** for the Robotics School case study.  
-The objective is to model a relational database using **Laravel 7** and **Eloquent ORM**, based on the following requirements:
-
-- Users can be **students**, **teachers**, or **administrators**.
-- A **student** belongs to a **group**.
-- A **group** can have several **courses**.
-- A **course** uses one **robotics kit**.
-- Groups can be beginner, intermediate, advanced (and more in the future).
+This Laravel 7 project models a small robotics school platform with users, groups, courses, and robotics kits. It demonstratesdatabase design with Eloquent ORM, migrations, seeders, and factories.  
 
 ---
 
