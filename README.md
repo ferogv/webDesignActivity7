@@ -15,12 +15,12 @@ The objective is to model a relational database using **Laravel 7** and **Eloque
 ## 📊 Deliverables
 
 - **ER Diagram**  
-  ![ER Diagram](docs/er-diagram.png)  
+  ![ER Diagram](docs/ER-diagram.png)  
   *(exported as PNG, also available in `/docs/` folder)*
 
 - **Database Export**  
   SQL file with all tables and relationships:  
-  [`database/export/activity7.sql`](database/export/activity7.sql)
+  [`database/export/activity7.sql`](database/export/laravel.sql)
 
 - **GitHub Repository**  
   This repository contains:
@@ -43,8 +43,10 @@ activity7/ ├── app/Models/         # User, Group, Course, RoboticsKit ├�
    git clone https://github.com/<your-username>/activity7.git
    cd activity7
 2. Install dependencies:
+   ```bash
     composer install
     npm install
 3. Configure .env with your database credentials.
 4. Run migrations:
+   ```bash
     php artisan migrate
