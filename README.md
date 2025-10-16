@@ -15,7 +15,7 @@ The objective is to model a relational database using **Laravel 7** and **Eloque
 ## 📊 Deliverables
 
 - **ER Diagram**  
-  ![ER Diagram](docs/ER-diagram.png)  
+  ![ER Diagram](docs/ER_diagram.png)  
   *(exported as PNG, also available in `/docs/` folder)*
 
 - **Database Export**  
